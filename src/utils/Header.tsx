@@ -5,7 +5,9 @@ function Header() :JSX.Element{
         <>
             <h1>MY FAVOURITE PLACES</h1>
             <nav>
-                <NavItem name={"mexico"} />
+                <NavItem name={"Mexico"} isEnd={false}/>
+                <NavItem name={"Orlando"} isEnd={false}/>
+                <NavItem name={"Paris"} isEnd={true}/>
             </nav>
         </>
     );
