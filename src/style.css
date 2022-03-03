@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+.nav {
+    background-color: grey;
+    width: 800px;
+    margin: 0px auto;
+}
+.navItem {
+    text-align: center;
+}
+a {
+    color: purple;
+}
