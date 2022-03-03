@@ -5,9 +5,10 @@ interface NavItemProps {
 
 function NavItem(props: NavItemProps): JSX.Element {
   const str = props.isEnd ? "" : "|";
+  const link = "#" + props.name;
   return (
     <>
-      <a href="#{props.name}">{props.name}</a>
+      <a href={link}>{props.name}</a>
       <span> {str} </span>
     </>
   );
