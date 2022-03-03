@@ -1,15 +1,35 @@
 h1 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
+img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
 .nav {
-    background-color: grey;
-    width: 800px;
-    margin: 0px auto;
+  background-color: grey;
+  width: 800px;
+  margin: 0px auto;
 }
 .navItem {
-    text-align: center;
+  text-align: center;
 }
 a {
-    color: purple;
+  color: purple;
+}
+.place {
+  max-width: 600px;
+  max-height: 900px;
+  text-align: center;
+  margin: 20px auto;
+  background-color: white;
+}
+.places {
+  background-color: grey;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }

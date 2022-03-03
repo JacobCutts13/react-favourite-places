@@ -1,7 +1,9 @@
-function Footer() :JSX.Element {
-    return(
-        <h3>Website by Jacob Cutts</h3>
-    );
+function Footer(): JSX.Element {
+  return (
+    <div className="footer">
+      <h3>Website by Jacob Cutts</h3>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
