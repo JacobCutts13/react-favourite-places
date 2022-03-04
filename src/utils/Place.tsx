@@ -1,4 +1,4 @@
-interface PlaceProps {
+export interface PlaceProps {
   name: string;
   location: string;
   vists: number;
@@ -17,3 +17,4 @@ function Place(props: PlaceProps): JSX.Element {
 }
 
 export default Place;
+
